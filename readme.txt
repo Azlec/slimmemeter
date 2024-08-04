@@ -1,6 +1,6 @@
 See Wiki https://github.com/peno64/slimmemeter/wiki
 
-Note that the wiki page "electricity peak current month" is no longer valid. The YAML of this project uses direct readouts of the Belgian capacity tariff from the DSMR component to show 3 values:
+Note that the wiki page "electricity peak current month" is not valid when using this YAML. The 2023.7 update of ESPHome officially added support for peak values. This YAML simply utilizes these readouts to show 3 peak values:
      
     active_energy_import_current_average_demand:
       name: "Peak Current Average Quarterly Demand"
